@@ -1,0 +1,152 @@
+ body{
+    background-color: #0B0C10;
+ }
+ 
+ .login{
+    position: absolute;
+    font-size: 1.25em;
+    text-decoration: none;
+    margin-left: 1400px;
+    color: #C5C6C7;
+    opacity: 0.7;
+    
+}
+
+.login:hover{
+    position: absolute;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 1400px;
+    color: white;
+    text-shadow: 1px 1px 8px #C5C6C7;
+    opacity: 1;
+    
+} 
+
+#centreimage{
+    position: relative;
+    top: 5vh;
+    /* margin-left: 25%;
+    margin-top: 8%; */
+    height: 650px;
+    width: 1500px;
+    opacity: 0.9;
+}
+
+#profilepic{
+    position: absolute;
+    top: 90px;
+    left: 42%;
+       height: 13em; 
+       border-radius: 50%;
+     margin-top: 10px;      
+ 
+}
+
+#profilename{    
+  position: absolute;
+  top: 280px;
+  left: 38%;
+  color: whitesmoke;
+  font-size: 3em;
+}
+
+#picline{
+    position: absolute;
+    top: 350px;
+    left: 38%;
+    color: whitesmoke;
+    font-size: 1.45em;
+
+}
+
+.display{
+    background-color: brown;
+    position: relative;
+    top: 70px;
+    height: 83.8%;
+    opacity: 0.2;
+
+}
+
+.navtag{   
+    background-color: #1F2833;
+    height: 800px;
+    width: 1350px;
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    border-radius: 24px;
+   
+    box-shadow: 1px 1px 15px #C5C6C7, -1px -1px 15px #C5C6C7;
+}
+
+.taglist{
+    position:relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tags{
+    /* border: solid;
+    border-color: black;
+    border-radius: 40px / 40px; */
+    position: static;
+    color: #45a29db7;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    text-decoration: none;
+    font-size: 1.35em;
+    padding: 15px;
+   
+
+}
+
+.tags:hover{
+    text-decoration: underline;
+    color: #53e9e1;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    font-size: 1.35em;
+    padding: 15px;   
+
+}
+
+#Home{
+    text-decoration: underline;
+    color: #53e9e1;
+}
+
+.content{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.content>h4{
+    font-size: 3em;
+}
+.content>p{
+    font-size: 1.25em;
+    word-spacing: 3.5px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #D9B08C;
+    position:absolute;
+    top: 1375px;
+    align-items: baseline;
+    width: 99%;
+    height:  25px;
+}
+
+.logos{
+    position: relative;
+    left: 1375px;
+}

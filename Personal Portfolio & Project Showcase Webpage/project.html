@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="projectstyle.css">
+</head>
+<body>
+
+    <div class="taglist">
+        <a href="index.html"  class="tags" id="Home">Home</a>
+        <a href="project.html"  class="tags" id="Projects">Projects</a>
+        <a href="gallery.html"  class="tags" id="Gallery">Gallery</a>
+        <a href="about.html"  class="tags" id="About">About Me</a>
+        <a href="feedback.html"  class="tags" id="Feedback">Feedback</a>
+    </div>
+
+  <div class="make">
+    <div id="card0" class="projects">
+        <img src="images/project1.jpeg" alt="project1 image" class="projectimg" style="border-radius: 8px 8px 0px 0px;">
+        <h4 class="pronme">Project name </h4>
+        <h6 class="shr-dcr">short descriptions</h6>
+        <p class="dscr">details   Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt nobis, vitae odit alias sed est at itaque earum aut.
+        </p>
+        <p class="status">staus</p>
+    </div>
+     
+    <div class="addnew">
+        <img src="images/add.png" alt="add new image" id="addpjt">
+    </div>
+
+  </div>
+
+  <div class="addform">
+    <div class="rdm">
+    <span class="formcross">&Cross;&nbsp;&nbsp;</span>
+</div>
+    <form action="#" >
+        
+        <input type="file" id="addprojectimage" class="form-items" placeholder="drop  or select image of your project">
+
+        <label for="addtitle">Project Name:</label>
+        <input type="text" name="Project-name" id="addtitle" class="form-items">
+
+        <label for="addshrtdscr">Short Description:</label>
+        <input type="text" name="short-description" id="addshrtdscr" class="form-items">
+
+        <label for="adddetails">Description:</label>
+        <input type="text" name="project-detils" id="adddetails" class="form-items">
+
+        <span >
+            <label for="sta">Status:</label>
+
+            <label for="onstatus">Online</label>
+            <input type="radio" name="add-status" id="onstatus" value="Online" class="stat-items">
+
+            <label for="offstatus">Offline</label>
+            <input type="radio" name="add-status" id="offstatus" value="Offline" class="stat-items">
+        </span>
+
+     <span class="btn">
+        <input type="button" value="Reset" class="button" id="Reset">
+        <input type="submit" value="Add Project" class="button" id="addproject" >
+    </span>
+
+    </form>
+  </div>
+   <div class="popup" >
+    <span class="cross">&Cross;&nbsp;&nbsp;</span>
+    <img src="images/project2.avif" alt="" class="popimg">
+    <h4 class="poph4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat dolor provident sint soluta, odit quam?</h4>
+    <p class="pop-sd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores molestias excepturi ad atque reprehenderit omnis debitis molestiae incidunt libero.</p>
+    <p class="det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque quasi ab sit repellat vero dolorum, labore aut explicabo veritatis, blanditiis minima quia quam nemo. Laborum hic numquam, eum laudantium cum earum ipsum explicabo at quaerat in mollitia eius inventore ea, exercitationem veniam adipisci! Fugiat architecto labore inventore sequi. A?</p>
+    <p class="pop-sts">adfa</p>
+   </div>
+   <footer>
+    <a href="#">FAQ</a> |
+    <a href="#"> <img src="images/terms.png" height="20px" width="20px" alt=""></a>
+    <span>
+        <span class="logos">
+        <span class="material-symbols-outlined">
+            &#x2709
+            </span>  |   
+            <span>
+                <img src="images/fb.png" alt="">
+            </span>
+        </span>
+    </span>
+</footer>
+
+   <script src="projectjs.js"></script>
+    
+</body>
+</html>

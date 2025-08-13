@@ -1,0 +1,407 @@
+body{
+    background-color: #0B0C10;
+}
+
+.navtag{   
+    background-color: #1F2833;
+    height: 800px;
+    width: 1350px;
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    border-radius: 24px;
+   
+    box-shadow: 1px 1px 15px #C5C6C7, -1px -1px 15px #C5C6C7;
+}
+
+.taglist{
+    position:relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tags{
+    /* border: solid;
+    border-color: black;
+    border-radius: 40px / 40px; */
+    position: static;
+    color: #45a29db7;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    text-decoration: none;
+    font-size: 1.35em;
+    padding: 15px;
+   
+
+}
+
+.tags:hover{
+    text-decoration: underline;
+    color: #53e9e1;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    font-size: 1.35em;
+    padding: 15px;   
+
+}
+
+#Projects{
+    text-decoration: underline;
+    color: #53e9e1;
+}
+
+
+
+.projects{
+    background-color: #116466;
+    color: #d1e8e2;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.511);
+    border-radius: 10px 10px 5px 5px;
+    width: 275px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 7px 7px  5px  rgba(158, 145, 145, 0.752);
+    transition: 200ms;
+    cursor:pointer;
+    margin: 40px 40px 40px 40px;
+    
+}
+
+.make{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projectimg{
+    
+    width: 275px;
+    height: 150px;    
+}
+
+.pronme{
+    position: relative;
+    top: -20px;
+    /* color: ; */
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+
+.shr-dcr{
+    position: relative;
+    top: -25px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.dscr{
+    position: relative;
+    top: -40px;
+    display: none;
+
+
+}
+
+.status{
+    position: relative;
+    top: -50px;
+    display: none;
+}
+
+.addnew{
+    height: 300px;
+    width: 275px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px 10px 5px 5px;   
+    display: block;
+    margin: 40px 40px 40px 40px;
+    transition: 200ms;
+    box-shadow: 7px 7px  5px  rgba(158, 145, 145, 0.752);
+}
+
+#addpjt{
+    width:275px;
+    height: 275px;
+    opacity: 0.5;
+}
+
+.popup{
+    background-color: #d9b086;
+    color: #2c3531;
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border: 2px solid white;
+    border-radius: 16px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgba(119, 118, 118, 0.862), -5px -5px 5px rgba(119, 118, 118, 0.615);
+    
+}
+
+.cross{
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.popimg{
+    position: relative;
+    height: 200px;
+    width: 350px;
+    left: 30%;
+    top: -25px;
+    border-radius: 7px;
+    border: 2px solid blue;
+    box-shadow: 5px 5px 5px rgba(86, 108, 200, 0.99), -5px -5px 5px rgba(86, 108, 200, 0.99);
+}
+
+.poph4{
+    padding: 15px;
+    position: relative;
+    top: -40px;
+    font-size: 1.25em;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.pop-sd{
+    position: relative;
+    padding-left: 20px;
+    margin: 0%;
+    top: -50px;
+    font-weight: 800;    
+}
+
+.det{
+    position: relative;
+    padding-left:20px;
+    margin: 0px;
+}
+
+.pop-sts{
+    position: relative;
+    left: 35%;
+}
+
+.projects:hover{
+    color: #d1e8e2;
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px 10px 5px 5px;
+    width: 275px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 9px 9px  6px  rgba(158, 145, 145, 0.752);
+    transform: scale(1.035);
+}
+
+.addnew:hover{
+    cursor: pointer;
+    height: 300px;
+    width: 275px;
+    border: 2px solid white;
+    border-radius: 10px 10px 5px 5px;   
+    display: block;
+    margin: 40px 40px 40px 40px;
+    box-shadow: 9px 9px  6px  rgba(158, 145, 145, 0.752);
+    transform: scale(1.035);
+}
+
+.addform{
+    display: none;
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: #116466;
+    color: white;
+    box-shadow: 9px 9px  6px  rgba(158, 145, 145, 0.752);
+    transform: scale(1.025);
+}
+
+.form-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;   
+    border: 3px solid black; 
+}
+
+#addprojectimage{
+    position: relative;
+    top: 15px;
+    height: 119px;
+    width: 99.5%;
+    cursor: pointer;
+    border: none;
+    margin-left: 250px;  
+    margin-top: 10px;
+    padding: 0%;
+  }
+  
+#addtitle{
+    width: 85%;
+    height: 1.25em;
+    left: 45px;
+    box-shadow: 3px 3px 5px rgba(93, 93, 186, 0.914);
+    transition: 200ms;
+}  
+
+#addtitle:hover{
+    transform: scale(1.025);
+    width: 85%;
+    height: 1.25em;
+    left: 45px;
+    box-shadow: 5px 5px 5px rgba(93, 93, 186, 0.968);
+}
+
+#addshrtdscr{
+    width: 85%;
+    height: 1.25em;
+    left: 45px;
+    box-shadow: 3px 3px 5px rgba(93, 93, 186, 0.914);
+    transition: 200ms;
+}  
+
+#addshrtdscr:hover{
+    transform: scale(1.025);
+    width: 85%;
+    height: 1.25em;
+    left: 45px;
+    box-shadow: 5px 5px 5px rgba(93, 93, 186, 0.968);
+}
+
+#adddetails{
+    width: 85%;
+    height: 12em;
+    left: 45px;
+    box-shadow: 3px 3px 5px rgba(93, 93, 186, 0.914);
+    transition: 200ms;
+}  
+
+#adddetails:hover{
+    transform: scale(1.025);
+    width: 85%;
+    height: 12em;
+    left: 45px;
+    box-shadow: 5px 5px 5px rgba(93, 93, 186, 0.968);
+}
+
+.stat-items{
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.stat-items:hover{
+    margin-top: 20px;
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.btn{
+   position: relative;
+   top: 15px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 30px / 30px;
+    
+}
+
+#Reset{
+    color: white;
+    background-color: grey;
+    opacity: 0.5;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: 200ms;
+}
+
+#Reset:hover{
+    color: wheat;
+    background-color: red;
+    opacity: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transform: scale(1.025);
+}
+
+#addproject{
+    color: white;
+    background-color: blue;
+    opacity: 0.5;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: 200ms;
+    
+    
+}
+
+#addproject:hover{
+    color: white;
+    background-color: green;
+    opacity: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transform: scale(1.025);
+}
+
+label{
+    margin: 10px;
+    padding: 10px;
+}
+
+.formcross{
+    position:absolute;
+    left: 575px;
+    top: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: left;
+    
+}
+
+footer{
+    background-color: #D9B08C;
+    position:absolute;
+    top: 1375px;
+    align-items: baseline;
+    width: 99%;
+    height:  25px;
+}
+
+.logos{
+    position: relative;
+    left: 1375px;
+}
+
+
+
+
+
+

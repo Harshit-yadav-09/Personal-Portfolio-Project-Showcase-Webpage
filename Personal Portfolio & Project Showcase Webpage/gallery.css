@@ -1,0 +1,145 @@
+body{
+    background-color: #0B0C10;
+}
+
+.taglist{
+    position:relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tags{
+    /* border: solid;
+    border-color: black;
+    border-radius: 40px / 40px; */
+    position: static;
+    color: #45a29db7;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    text-decoration: none;
+    font-size: 1.35em;
+    padding: 15px;
+   
+
+}
+
+.tags:hover{
+    text-decoration: underline;
+    color: #53e9e1;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    font-size: 1.35em;
+    padding: 15px;   
+
+}
+
+#Gallery{
+    text-decoration: underline;
+    color: #53e9e1;
+    width: 95px;
+    height:12px ;
+    text-align: center;  
+    font-size: 1.35em;
+    padding: 15px;
+
+}
+.add{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.smlimg{
+    background-color: aquamarine;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    display: grid;
+}
+
+.img0{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.showimg{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 650px;
+    width: 1400px;
+    background-color: #53e9e1;
+    border-radius: 12px;
+
+    
+}
+
+.close{
+    color: red;
+    position: absolute;
+    left: 1377px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bigimg{
+    height: 650px;
+    width: 1400px;
+
+}
+
+form{
+    display: none;
+    border: 3px solid white;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    border-radius: 20px;
+}
+
+.selimg{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.upload{
+    position: relative;
+    top: 35px;
+    left: 60px;
+    border: 2.5px solid white;
+    background-color: rgba(0, 128, 0, 0.54);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.clsfrm{
+    color: white;
+    position: absolute;
+    left: 175px;
+    cursor: pointer;
+}
+
+.upload:hover{
+    position: relative;
+    top: 35px;
+    left: 60px;
+    border: 2.5px solid white;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
